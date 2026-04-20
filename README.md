@@ -43,8 +43,9 @@ g++ main.o -o timber-game -L ./SFML-2.6.2/lib -lsfml-graphics -lsfml-window -lsf
 
 # 4. Executar definindo o caminho das bibliotecas compartilhadas
 LD_LIBRARY_PATH=./SFML-2.6.2/lib ./timber-game
-Nota: Se você estiver em uma distro Arch/CachyOS e encontrar erros de "no matching function", certifique-se de que não há uma versão global da SFML 3.x instalada no sistema que possa estar conflitando com os headers locais.
 ```
+
+Nota: Se você estiver em uma distro Arch/CachyOS e encontrar erros de "no matching function", certifique-se de que não há uma versão global da SFML 3.x instalada no sistema que possa estar conflitando com os headers locais.
 
 ## 📚 Créditos e Referências
 
